@@ -2,11 +2,11 @@
 <a id="readme-top"></a>
 
 <!-- PROJECT SHIELDS -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+<div align="center">
+
+[![Contributors][contributors-shield]][contributors-url] [![Forks][forks-shield]][forks-url] [![Stargazers][stars-shield]][stars-url] [![Issues][issues-shield]][issues-url] [![LinkedIn][linkedin-shield]][linkedin-url]
+
+</div>
 
 <!-- PROJECT LOGO -->
 <br />
@@ -50,14 +50,21 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This is a university project developed to manage a Transportation Company. The system is designed to handle various entities such as Drivers, Managers, Passengers, Vehicles, and their respective assignments and trips. Features include user login/registration, trip assignments, ticket reviews, and extensive data management using serialized database text files.
+This is my first "big" project in a sense, we were told we have to create a transportation system in Java, and using a UI framework is optional, I opted to learn JavaFX in the given time, which was less than 2 weeks, and created something that *arguably* doesn't look bad, however it was my first time indulging with UI and frontend.
+
+The system is designed to handle various entities such as Drivers, Managers, Passengers, Vehicles, and their respective assignments and trips. Features include user login/registration, trip assignments, ticket reviews, and extensive data management using serialized database text files.
+
+*Using .txt files as a database was mandatory*
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
 
-* [![Java][Java.com]][Java-url]
-* [![JavaFX][JavaFX.com]][JavaFX-url]
+<div align="center">
+
+[![Java][Java.com]][Java-url] [![JavaFX][JavaFX.com]][JavaFX-url] [![Python][Python.org]][Python-url] [![CSS][CSS.com]][CSS-url]
+
+</div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -82,6 +89,8 @@ To get a local copy up and running follow these simple example steps.
 3. Configure the JavaFX SDK path in your module settings or build configurations if needed.
 4. Run the main class of the application.
 
+*Note if you wish to use Maven or Gradle to setup JavaFX, use https://openjfx.io/openjfx-docs/ and head to your preferable tool setup guide.*
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
@@ -90,63 +99,53 @@ To get a local copy up and running follow these simple example steps.
 Here is a showcase of the application's Graphical User Interface (GUI), structured around different roles in the system.
 
 ### Manager Interface
-* **Manager Adding Vehicle**: [Add your description here]
+* **Manager Adding Vehicle**: 
   <br>![Manager Adding Vehicle](GUI%20Screenshots/ManagerAddingVehicle.png)
 
-* **Manager Assigning Driver**: [Add your description here]
+* **Manager Assigning Driver**:
   <br>![Manager Assigning Driver](GUI%20Screenshots/ManagerAssignDriver.png)
 
-* **Manager Profile**: [Add your description here]
+* **Manager Profile**:
   <br>![Manager Profile](GUI%20Screenshots/ManagerProfile.png)
 
-* **Manager Report**: [Add your description here]
+* **Manager Report**:
   <br>![Manager Report](GUI%20Screenshots/ManagerReport.png)
 
-* **Manager Reviewing Tickets**: [Add your description here]
+* **Manager Reviewing Tickets**:
   <br>![Manager Reviewing Tickets](GUI%20Screenshots/ManagerReviewingTickets.png)
 
 ### Passenger Interface
-* **Passenger Explore**: [Add your description here]
+* **Passenger Explore**:
   <br>![Passenger Explore](GUI%20Screenshots/PassengerExplore.png)
 
-* **Passenger Tickets**: [Add your description here]
+* **Passenger Tickets**:
   <br>![Passenger Tickets](GUI%20Screenshots/PassengerTickets.png)
 
-* **Passenger Registration**: [Add your description here]
+* **Passenger Registration**: (differs from role to role)
   <br>![Passenger Registration](GUI%20Screenshots/RegistrationPassenger.png)
 
 ### Additional Views
-* **Screenshot 1**: [Add your description here]
+* **Login Screen**: 
   <br>![Screenshot 1](GUI%20Screenshots/Screenshot_1.png)
 
-* **Screenshot 2**: [Add your description here]
+* **Landing Page**: The page that opens when you run the project 
   <br>![Screenshot 2](GUI%20Screenshots/Screenshot_2.png)
 
-* **Screenshot 3**: [Add your description here]
+* **Manager Trip Addition**: 
   <br>![Screenshot 3](GUI%20Screenshots/Screenshot_3.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] Initial System Architecture and Classes
-- [x] Integrate text-file-based databases
-- [x] Develop GUI using JavaFX
-- [ ] Add relational database (MySQL/PostgreSQL) support
-- [ ] Implement advanced analytics for Managers
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+You can fork the project and add features/adjust code to what your heart desires.
 
 1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
+2. Create your Feature Branch (`git checkout -b feature/NewFeature`)
+3. Commit your Changes (`git commit -m 'Add some NewFeature'`)
+4. Push to the Branch (`git push origin feature/NewFeature`)
 5. Open a Pull Request
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -154,7 +153,7 @@ Contributions are what make the open source community such an amazing place to l
 <!-- CONTACT -->
 ## Contact
 
-Ammar - [Github Profile](https://github.com/AmmarKeon)
+Ammar - [Github Profile](https://github.com/AmmarKeon) - ammarkeon@gmail.com
 
 Project Link: [https://github.com/AmmarKeon/Transporation-System](https://github.com/AmmarKeon/Transporation-System)
 
@@ -175,3 +174,7 @@ Project Link: [https://github.com/AmmarKeon/Transporation-System](https://github
 [Java-url]: https://www.java.com/
 [JavaFX.com]: https://img.shields.io/badge/JavaFX-FF0000?style=for-the-badge&logo=java&logoColor=white
 [JavaFX-url]: https://openjfx.io/
+[Python.org]: https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
+[Python-url]: https://www.python.org/
+[CSS.com]: https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white
+[CSS-url]: https://developer.mozilla.org/en-US/docs/Web/CSS
